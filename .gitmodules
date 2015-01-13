@@ -1,0 +1,51 @@
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "bundle/neocomplete"]
+	path = bundle/neocomplete
+	url = git@github.com:Shougo/neocomplcache.vim.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "bundle/tlib_vim"]
+	path = bundle/tlib_vim
+	url = git@github.com:tomtom/tlib_vim.git
+[submodule "bundle/vim-addon-mw-utils"]
+	path = bundle/vim-addon-mw-utils
+	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = git@github.com:bling/vim-airline.git
+[submodule "bundle/vim-bundler"]
+	path = bundle/vim-bundler
+	url = git@github.com:tpope/vim-bundler.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule "bundle/vim-rake"]
+	path = bundle/vim-rake
+	url = git@github.com:tpope/vim-rake.git
+[submodule "bundle/vim-rbenv"]
+	path = bundle/vim-rbenv
+	url = git@github.com:tpope/vim-rbenv.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = git@github.com:honza/vim-snippets.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = git@github.com:tpope/vim-unimpaired.git
+[submodule "bundle/150colors"]
+	path = bundle/150colors
+	url = git@github.com:luckydev/150colors.git
+[submodule "bundle/vim-snipmate"]
+	path = bundle/vim-snipmate
+	url = git@github.com:garbas/vim-snipmate.git
