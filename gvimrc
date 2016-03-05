@@ -7,7 +7,7 @@ set go-=L
 " set font to Monaco 11pt
 " set guifont=Monaco:h12
 " using a prepatched poweline font for vim airline
-set guifont=Monaco_for_Powerline:h12
+set guifont=Monaco_for_Powerline:h11
 
 " Don't beep
 set visualbell
