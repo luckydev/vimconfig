@@ -1,4 +1,4 @@
-" no vi compatibility
+"customisations no vi compatibility
 set nocompatible
 
 " system turns on filetype. force it to off before pathogen
@@ -35,10 +35,14 @@ set expandtab
 let mapleader = ","
 
 set autochdir
-" set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬
 " set list
 
 set cpoptions+=$
+set laststatus=2
+set autoread
+
+" autocomlpete settings
 let g:neocomplcache_enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
