@@ -34,6 +34,7 @@ set expandtab
 " leader key will be comma ( , )
 let mapleader = ","
 
+
 set autochdir
 set listchars=tab:▸\ ,eol:¬
 " set list
@@ -46,3 +47,28 @@ set autoread
 let g:neocomplcache_enable_at_startup = 1
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
+map <Leader>t <c-p>
+
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+" dont show --insert-- below because lightline is showing it
+set noshowmode
+
+colorscheme codedark
+
+" lightline statusbar config to have git branch info
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
+
+" move between windows easily
+map <C-H> <C-W>h
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l

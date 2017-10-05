@@ -13,9 +13,6 @@
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
 	url = git@github.com:MarcWeber/vim-addon-mw-utils.git
-[submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
-	url = git@github.com:bling/vim-airline.git
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
 	url = git@github.com:tpope/vim-bundler.git
@@ -55,9 +52,6 @@
 [submodule "bundle/vim-indent-guides"]
 	path = bundle/vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides
-[submodule "bundle/vim-airline-themes"]
-	path = bundle/vim-airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
