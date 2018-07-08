@@ -4,13 +4,13 @@ set go-=r
 set go-=l
 set go-=L
 
-set guifont=Monaco:h12
+set guifont=Menlo:h12
 
 " Don't beep
 set visualbell
 
 " Default gui color scheme
-colorscheme codeschool
+colorscheme codedark
 
 let g:indent_guides_guide_size = 2
 

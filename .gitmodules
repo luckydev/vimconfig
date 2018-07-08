@@ -31,9 +31,6 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = git@github.com:vim-ruby/vim-ruby.git
-[submodule "bundle/vim-snippets"]
-	path = bundle/vim-snippets
-	url = git@github.com:honza/vim-snippets.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git@github.com:tpope/vim-surround.git
@@ -43,9 +40,6 @@
 [submodule "bundle/150colors"]
 	path = bundle/150colors
 	url = git@github.com:luckydev/150colors.git
-[submodule "bundle/vim-snipmate"]
-	path = bundle/vim-snipmate
-	url = git@github.com:garbas/vim-snipmate.git
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript
@@ -61,3 +55,9 @@
 [submodule "bundle/lightline"]
 	path = bundle/lightline
 	url = https://github.com/itchyny/lightline.vim
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
