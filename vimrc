@@ -54,7 +54,7 @@ set noshowmode
 
 " lightline statusbar config to have git branch info
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \ 'colorscheme': 'onehalfdark',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
@@ -71,5 +71,6 @@ map <C-K> <C-W>k
 map <C-L> <C-W>l
 
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|.git'
-colorscheme codedark
+
+colorscheme onehalfdark
 

@@ -4,7 +4,7 @@ set go-=r
 set go-=l
 set go-=L
 
-set guifont=Menlo:h12
+set guifont=Monaco:h12
 
 " Don't beep
 set visualbell
